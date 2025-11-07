@@ -3,9 +3,9 @@ class CfgPatches
 	class ACOverlay_YZMT
 	{
 		units[] = {};
-		weapons[] = {};
+		
 		requiredVersion = 0.1;
-		requiredAddons[] = { "DZ_Scripts" };
+		requiredAddons[] ={"DZ_Scripts","DZ_Data"};
 	};
 };
 
@@ -18,7 +18,7 @@ class CfgMods
 		description = "";
 		author = "Comrade Sythar";
 		version = "0.01";
-
+		type = "mod";
 		dependencies[] = { "Game", "World", "Mission" };
 
 		class defs
